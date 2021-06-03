@@ -1,55 +1,123 @@
 <!DOCTYPE html>
 <html lang="eng">
-
-   <style>
-      body {
-        background-image: url('rose.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-      footer {
-
-         position: absolute;
-         bottom: 10px;
-         width:  100px;
-      }
-      
+  
 
       
-      </style>
 
    <head>
-      <meta charset="UTF-8">
-      <meta name="description" content="Claire's World">
-      <meta name="keywords" content="plants, blogs, chill vibes">
-      <meta name="author" content="Claire Langley">
-      </head>
-      
-<h1 style="color:darkmagenta;text-align: center;" >Welcome to Claire's world</h1>
-<h2 style="text-align: center;"> Chill Vibezz <img src="weed.png" alt="weed leaf" width="60" height="60"></h2>
-<body>
-   <p style="text-align: center;">Hello everyone, I hope you enjoy learning about me, my plants, my art and my blogs.</p>
 
-        <h3 style="text-align: center;"><a href="aboutme.html">About Me</a></h3>
-        <center><img src="claire.png" alt="image of character" width="115" height="115" class="115"> </center>
-   <h3 style="text-align: center;"><a style= "text-align:center;"><a href="blogs.html">Blogs, blogs and more Blogs...</a></h3>
-   <center><img src="blogss.jpg" alt="picture of notepad" width="115" height="115"></center>
-   <h3 style="text-align: center;"><a href="artworks.html">My Artworks</a></h3>
-   <center><img src="artt.jpg" alt="paint" width="115" height="115"></center>
+      <link rel="stylesheet" href="./css/main.css">
+      <script src="./js/src.js"></script>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="./css/navbar.css">
+      <meta name="description" content="Claire Bell">
+      <meta name="keywords" content="plants, blogs, chill vibes">
+      <meta name="author" content="Claire Bell">
+      <title>Claire Bell</title>
+      
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      
+    
+
+  
+      <body>
+
+   </head>
+      <header>
+         
+            
+               
+                <center><img src="./img/logo.png" width="300" height="300" alt="Claire Bell Logo"></center>
+                 
+                  
+                  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                  <nav class="topnav" id="myTopnav">
+                    <a href="aboutme.html">About</a>
+                    <a href="blogs.html">Theory Blogs</a>
+                    <a href="bonusblogs.html">Bonus Blogs</a>
+                    <a href="wireframes.html" >Wireframes</a>
+                   
+                    
+                  
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                     <i class="fa fa-bars"></i>
+                   
+                    </a>
+                  </nav>
+                  
+
+
+               
+
+            
+            
+        
+      
+
+<h2> Welcome! <img src="./img/weed.png" alt="weed leaf" width="60" height="60"></h2>
+   <p>Hello everyone, I hope you enjoy learning about me, my plants, my art and my blogs.</p>
+
+  <center>
+  
    
+   <section class="container">
+      <h2></h2>  
+      <section id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <section class="carousel-inner">
+          <section class="item active">
+            <img src="./img/claire.png" alt="Claire" style="width:60%;">
+          </section>
+    
+          <section class="item">
+            <img src="./img/carasol1.jpg" alt="plants" style="width:60%;">
+          </section>
+        
+          <section class="item">
+            <img src="./img/carasol2.jpg" alt="roses" style="width:60%;">
+          </section>
+        </section>
+    
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </section>
+    </section>
+  
+         
+
+         
+
+       
+</center>
    
   
 </body>
 
-<footer>
-   <table border="0">
-      <tr><td><img src="instagram.png" alt="instagram link" width="50"
-         height="50"></td><td><img src="facebook.png" alt="facebook link" width="50"
-            height="50"></td><td><img src="twitter.png" alt="twitter link" width="50"
-               height="50"></td></tr>
-
-
-   </table>
-
-</footer>
+<footer class="main-footer">
+   <a href="#">
+      <img src="./img/instagram.png" alt="instagram link" width="50"
+         height="50"></td><td><img src="./img/facebook.png" alt="facebook link" width="50"
+            height="50"></td><td><img src="./img/twitter.png" alt="twitter link" width="50"
+               height="50">
+            </a>
+              </footer>
 </html>
