@@ -1,0 +1,88 @@
+
+      html body {
+        background-color: thistle;
+    
+    }
+      
+      
+      body {
+        
+        background-color: thistle;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      
+     
+      h1{
+
+        color: darkmagenta;
+        text-align: left;
+        
+      }
+
+    
+
+     h2{
+          color:darkmagenta;
+          text-align: center;
+      }
+
+      p{
+          text-align: center;
+      }
+
+      h3{
+          text-align: center;
+      }
+      
+      footer {
+
+         position: absolute;
+         bottom: 10px;
+         width:  100px;
+      }
+
+
+      .main-footer {
+        background-color: thistle;
+        width: 100%;
+        padding: 2px 0 2px 0;
+        box-shadow: 1px 1px 10px rgb(119 119 119 / 20%);
+        color: thistle;
+        position: relative;
+        margin-top: auto;
+    }
+      
+    /* external css: flickity.css */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body { font-family: sans-serif; }
+
+.gallery {
+  background: #EEE;
+}
+
+.gallery-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+Resources
