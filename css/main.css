@@ -17,8 +17,13 @@
       h1{
 
         color: darkmagenta;
-        text-align: left;
+        text-align: center;
         
+      }
+
+      .heading {
+        color: darkmagenta;
+      
       }
 
     
@@ -30,7 +35,22 @@
 
       p{
           text-align: center;
+          color: darkmagenta;
+          font-size: 20px;
+          font-style: inherit;
+          background-color: lightgrey;
+          width: 1250px;
+          border: 15px solid darkmagenta;
+          padding: 30px;
+          margin: 20px;
+          
+          
       }
+      
+
+     
+      
+      
 
       h3{
           text-align: center;
