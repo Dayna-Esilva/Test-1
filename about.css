@@ -1,6 +1,7 @@
-body{
-    background-image: url('../img/sparkle.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+html body {
+    background-color: powderblue;
+}
 
+body {
+    text-align: center;
 }
