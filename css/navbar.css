@@ -1,42 +1,83 @@
 
+
+
 .topnav {
-    background-color: rgba(34, 9, 126, 0.541);
-    overflow: hidden;
-  }
+  background-color:lightgreen;
+  overflow: hidden;
+  text-align: center;
+  font: status-bar;
   
   
-  .topnav a {
-    background-color: rgba(34, 9, 126, 0.541)
-    float: left;
-    display: block;
-    color:rgba(34, 9, 126, 0.541);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+  
+}
 
-  }
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color:darkgreen;
+  text-align: center;
+  padding: 40px 100px;
+  text-decoration: none;
+  font-size: 30px;
   
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:lightblue;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* sidenav */
+
+.sidenav {
+  width: 160px; 
+  overflow:visible;
+  position: fixed;
+  
+}
+
+.sidenav a {
+  background-color:lightgreen; /* Grey background color */
+  color: grey; /* Black text color */
+  font-size: 30px;
+  text-align: right;
+  display: block; /* Make the links appear below each other */
+  padding: 100px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  color: darkgreen;
+  font: status-bar;
+}
+
+.sidenav a:hover {
+  background-color:lightblue; 
+  color: black;
+}
+
+.sidenav a.active {
+  background-color: #04AA6D; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
  
-  .topnav a:hover {
-    background-color:rgba(34, 9, 126, 0.541);
-    color: black;
-  }
-  
-  
-  .topnav a.active {
-    background-color: rgba(34, 9, 126, 0.541);
-    color:rgba(34, 9, 126, 0.541);
-  }
-  
-  
-  .topnav .icon {
-    display: none;
-    
-
-  }
-
-  @media screen and (max-width: 600px) {
+ 
+ 
+ 
+ @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
@@ -56,5 +97,3 @@
       display: block;
       text-align: left;
     }
-  
-  

@@ -1,15 +1,20 @@
-body {
-    background-color: powderblue;
-  }
+html body{
+    background-color: lavender;
 
-  .heading {
-    text-align: center;
-    font-size: 50px;
-    font-style: oblique;
-    color: darkblue;
+}
+
+.heading {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    color:purple;
   }
   
-  .blogCard {
+
+
+.blogCard {
     display: inline-block;
     margin: 1rem 1rem 2.5rem;
     background-color: rgb(253, 253, 253);
@@ -21,10 +26,6 @@ body {
     position: relative;
     transition: all 0.25s ease-in-out;
     text-decoration: none;
-}
-
-a:hover {
-  color:darkblue;
 }
 
   .center {
@@ -41,11 +42,11 @@ a:hover {
     margin-left: 80px;
   }
 
-  .grid {
+.grid {
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 0% 1%;
-}
+ }
 
 .blogCard {
   max-width: 20rem;
@@ -60,17 +61,3 @@ a:hover {
   
   columns: 100px 3;
 }
-
-@media only screen and (max-width: 768px) 
-.grid {
-      grid-template-columns: 1fr;
-      margin-left: 0rem;
-      padding-left: 0rem;
-
- @media only screen and (max-width: 1024px)
- .grid {
-    grid-template-columns: 1fr 1fr;
-}
-
-  
-

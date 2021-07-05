@@ -1,55 +1,93 @@
 
-      html body {
-        background-color: thistle;
+      
     
-    }
       
       
       body {
         
-        background-color: thistle;
+        background-color: whitesmoke;
         background-repeat: no-repeat;
         background-size: cover;
       }
 
-      
+      #logo{ 
+        position:fixed; 
+        top:0; 
+        left:0; 
+      } 
+
+      .animate {
+        padding-left: 500px;
+      }
      
+      
+
       h1{
 
-        color: darkmagenta;
+        color: teal;
         text-align: center;
         
       }
 
-      .heading {
-        color: darkmagenta;
-      
+      .scroll {
+        color: teal;
+        
+  
       }
 
+      .banner {
+        position: center;
+        padding-left: 200px;
+      }
+
+      .column {
+        float: right;
+        width: 33.33%;
+        padding: 5px;
+        padding-top: 50px;
+      }
+      
+      /* Clear floats after image containers */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
     
 
      h2{
-          color:darkmagenta;
+          color:teal;
           text-align: center;
       }
 
-      p{
+      .intro {
           text-align: center;
-          color: darkmagenta;
-          font-size: 20px;
-          font-style: inherit;
-          background-color: lightgrey;
-          width: 1250px;
-          border: 15px solid darkmagenta;
+          color: teal;
+          font-size: 25px;
+          font-style:inherit;
+          
+          width: 1000px;
+          
           padding: 30px;
-          margin: 20px;
-          
-          
-      }
-      
+          margin: 0px 0px 0px;
+         
+          position:relative;
+          left: 200px;
+          top: 2px;
 
-     
+          
+          
+          
+    
+      }
+
+      #claire {
+        position: center;
+        padding-left: 580px;
+      }
+
       
+ 
       
 
       h3{
@@ -58,20 +96,9 @@
       
       footer {
 
-         position: absolute;
-         bottom: 10px;
-         width:  100px;
+         position: fixed;
+         bottom: 0px;
+         width:  1000px;
       }
 
-
-      .main-footer {
-        background-color: thistle;
-        width: 100%;
-        padding: 2px 0 2px 0;
-        box-shadow: 1px 1px 10px rgb(119 119 119 / 20%);
-        color: thistle;
-        position: relative;
-        margin-top: auto;
-    }
       
-    
